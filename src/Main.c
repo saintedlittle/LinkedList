@@ -9,7 +9,7 @@ int main() {
     list->add(list, createNode(createData("Hello")));
     Node *node = createNode(createData("Maga"));
     list->add(list, node);
-    list->add(list, createNode(createData("Bandera")));
+    list->add(list, createNode(createData("111")));
     printf("%s\n", list->linkedListToString(list));
 
     // ???
